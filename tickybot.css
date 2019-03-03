@@ -1,0 +1,175 @@
+:root{
+    --main-font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    --title-font: ;
+    --title-font-size ;
+    
+}
+
+
+h1{
+    font-family: var(--main-font-family);
+    text-align: center;
+    font-weight: 400;
+    font-size: 55px;
+}
+h2{
+    font-family: var(--main-font-family);
+    text-align: center;
+}
+p{
+    font-family: var(--main-font-family);
+    text-align: center;
+    font-size: 18px
+}
+
+#nav-parent{
+    background-color: rgb(64,89,107);
+}
+#nav-container{
+    color: rgb(255, 213, 107);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin: 0 600px 0 600px;
+}
+.nav{
+    text-align: center;
+    font-size: 19px;
+}
+#head-container{
+    background-color: rgb(85,192,236);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 100px;
+    font-family: var(--main-font-family);
+    height: 600px;
+
+}
+#intro-container{
+    height: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+
+}
+#subtitle{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.add-to-slack{
+    position: relative;
+    height: 60px;
+    width: 270px;
+    font-size: 20px;
+    display: grid;    
+}
+#button-text{
+    position: relative;
+    top: -33px;
+}
+.slack-image{
+    height: auto;
+    width: 50px;
+}
+#tickybot-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+#description-container{
+    position: relative;
+    display: flex;
+/*    grid-template-columns: 40% 40%;*/
+    width: 800px;
+    flex-direction: row;
+    font-family: var(--main-font-family);
+    left: 20%;
+}
+#blue-line1{
+    position: relative;
+    background-color: rgb(85,192,236);
+    height: 3px;
+    width:140px;
+    left:45.5%;
+    top:-20px;
+}
+.description{
+
+}
+#support-requests{
+    position: relative;
+    left: -182px;
+}
+#explainer-section{
+    background-color: rgb(144,221,170);
+
+}
+.explainer-container{
+    font-family: var(--main-font-family);
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 100%;
+}
+#blue-line2{
+    position: relative;
+    background-color: rgb(85,192,236);
+    height: 3px;
+    width:120px;
+    left:46%;
+    top:-20px;
+}
+.explainer-image-box{
+    background-color: rgb(64,89,107);
+    height: 400px;
+    width: 320px;
+    margin: 40px 15px 0 15px;
+}
+.explainer{
+    background-color: white;
+    width: 320px;
+    height: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+#contacts-img{
+    margin: 64px 40px 70px 40px;
+    
+}
+#message-img{
+    margin: 70px 40px 70px 40px;
+}
+#checklist-img{
+    margin: 70px 40px 70px 40px;
+}
+#closing-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 360px;
+    padding-bottom: 40px;
+}
+#blue-line3{
+    position: relative;
+    background-color: rgb(85,192,236);
+    height: 3px;
+    width:140px;
+    top:-43px;
+}
+#page-bottom{
+    background-color: rgb(64,89,107);
+    font-family: var(--main-font-family);
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
