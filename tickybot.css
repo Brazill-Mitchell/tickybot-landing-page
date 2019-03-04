@@ -291,6 +291,8 @@ p{
     justify-content: center;
     align-content: center;
     bottom: 20px;
+    opacity: 0;
+
 }
 #top-img{
     width: 40px;
